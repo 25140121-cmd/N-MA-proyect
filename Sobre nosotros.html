@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NÜMA | Conócenos</title>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080b0d;
+            color: white;
+            margin: 0;
+        }
+
+
+        header {
+            background: #000;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 12px #00ff88;
+        }
+
+
+        header h1 {
+            color: #00ff88;
+            margin: 0;
+        }
+
+
+        .presentacion {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+
+        .presentacion h2 {
+            color: #00ff88;
+            font-size: 35px;
+        }
+
+
+        .presentacion p {
+            color: #b8caca;
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+
+        main > h2 {
+            text-align: center;
+            color: #00e5ff;
+            margin-bottom: 25px;
+        }
+
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+
+        .tarjeta {
+            background: #101719;
+            padding: 22px;
+            border: 1px solid #244044;
+            border-radius: 12px;
+        }
+
+
+        .tarjeta h3 {
+            color: #00ff88;
+        }
+
+
+        .tarjeta p {
+            color: #b8caca;
+            line-height: 1.6;
+        }
+
+
+        .objetivo {
+            margin-top: 25px;
+            padding: 25px;
+            background: #10221c;
+            border-left: 4px solid #00e5ff;
+            border-radius: 10px;
+        }
+
+
+        .objetivo h2 {
+            color: #00e5ff;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #00ff88;
+            background: #000;
+            margin-top: 30px;
+        }
+
+
+        /* Adaptación a celulares */
+        @media (max-width: 600px) {
+            .tarjetas {
+                grid-template-columns: 1fr;
+            }
+
+
+            .presentacion h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>NÜMA</h1>
+    </header>
+
+
+    <section class="presentacion">
+        <h2>Escuchar mejor, vivir mejor</h2>
+        <p>
+            NÜMA es una propuesta tecnológica que busca
+            proteger la audición, reducir el ruido y promover
+            el bienestar de las personas.
+        </p>
+    </section>
+
+
+    <main>
+        <h2>Datos de la empresa</h2>
+
+
+        <div class="tarjetas">
+
+
+            <section class="tarjeta">
+                <h3>1. Origen</h3>
+                <p>
+                    NÜMA busca relacionar la salud auditiva
+                    con el bienestar neurológico y la prevención
+                    del aislamiento social.
+                </p>
+            </section>
+
+
+            <section class="tarjeta">
+                <h3>2. ¿Cómo funciona?</h3>
+                <p>
+                    NÜMA Shields propone reducir ciertos ruidos
+                    y permitir escuchar las voces. Su eficacia
+                    debe comprobarse mediante pruebas.
+                </p>
+                <p>
+                    Costo estimado: $380 MXN.
+                    Precio propuesto: $1,500 MXN + IVA.
+                </p>
+            </section>
+
+
+            <section class="tarjeta">
+                <h3>3. ODS 3</h3>
+                <p>
+                    Busca contribuir a la salud y el bienestar.
+                    También propone una aplicación llamada
+                    NÜMA Neural con ejercicios auditivos.
+                </p>
+            </section>
+
+
+            <section class="tarjeta">
+                <h3>4. Regulación</h3>
+                <p>
+                    El producto deberá cumplir los requisitos
+                    de seguridad y las normas aplicables antes
+                    de comercializarse.
+                </p>
+            </section>
+
+
+        </div>
+
+
+        <section class="objetivo">
+            <h2>Nuestro objetivo</h2>
+            <p>
+                Combinar tecnología y prevención para fomentar
+                el cuidado de la audición y mejorar el bienestar
+                de las personas.
+            </p>
+        </section>
+    </main>
+
+
+    <footer>
+        NÜMA | Tecnología y bienestar
+    </footer>
+
+
+</body>
+</html>
+
+
